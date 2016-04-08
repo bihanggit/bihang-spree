@@ -1,5 +1,5 @@
 module Spree
-  class PaymentMethod::Oklink < PaymentMethod
+  class PaymentMethod::Bihang < PaymentMethod
     preference :api_key, :string
     preference :api_secret, :string
     preference :use_off_site_payment_page, :boolean

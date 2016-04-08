@@ -1,15 +1,15 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_oklink'
+  s.name        = 'spree_bihang'
   s.version     = '0.0.1'
-  s.summary     = 'Accept bitcoin payments on Spree with Oklink.'
-  s.description = 'Accept bitcoin payments on your Spree store with Oklink.'
+  s.summary     = 'Accept bitcoin payments on Spree with bihang.'
+  s.description = 'Accept bitcoin payments on your Spree store with bihang.'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author      = 'oklink'
+  s.author      = 'bihang'
   # s.email      = 'you@example.com'
-  s.homepage     = 'http://oklink.com'
+  s.homepage     = 'http://bihang.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")

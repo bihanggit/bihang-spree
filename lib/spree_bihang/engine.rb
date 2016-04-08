@@ -1,8 +1,8 @@
-module SpreeOklink
+module SpreeBihang
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_oklink'
+    engine_name 'spree_bihang'
 
     # use rspec for tests
     # config.generators do |g|
@@ -17,8 +17,8 @@ module SpreeOklink
 
     config.to_prepare &method(:activate).to_proc
 
-    initializer "spree.spree_oklink.payment_methods", :after => "spree.register.payment_methods" do |app|
-      app.config.spree.payment_methods << Spree::PaymentMethod::Oklink
+    initializer "spree.spree_bihang.payment_methods", :after => "spree.register.payment_methods" do |app|
+      app.config.spree.payment_methods << Spree::PaymentMethod::Bihang
     end    
   end
 end

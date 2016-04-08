@@ -1,5 +1,5 @@
 module Spree
-	class OklinkTrancation < ActiveRecord::Base
+	class BihangTrancation < ActiveRecord::Base
 		has_many :payments, :as => :source
 		
 	    def actions

@@ -1,6 +1,6 @@
 Spree::Core::Engine.routes.draw do
-  get '/spree_oklink/redirect', :to => "oklink#redirect", :as => :spree_oklink_redirect
-  post '/spree_oklink/callback', :to => "oklink#callback", :as => :spree_oklink_callback
-  get '/spree_oklink/cancel', :to => "oklink#cancel", :as => :spree_oklink_cancel
-  get '/spree_oklink/success', :to => "oklink#success", :as => :spree_oklink_success
+  get '/spree_bihang/redirect', :to => "bihang#redirect", :as => :spree_bihang_redirect
+  post '/spree_bihang/callback', :to => "bihang#callback", :as => :spree_bihang_callback
+  get '/spree_bihang/cancel', :to => "bihang#cancel", :as => :spree_bihang_cancel
+  get '/spree_bihang/success', :to => "bihang#success", :as => :spree_bihang_success
 end

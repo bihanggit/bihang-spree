@@ -1,8 +1,0 @@
-Pay with bitcoin, a digital currency. Payment instructions will be displayed after you click 'Save and Continue'.
-<script type="text/javascript">
-	SpreeOklink.paymentMethodId = <%= payment_method.id %>;
-	SpreeOklink.useOffSite = <%= payment_method.preferred_use_off_site_payment_page == true %>;
-	SpreeOklink.checkoutUrl = "<%= j spree_oklink_redirect_url(:payment_method_id => payment_method.id).html_safe %>";
-	SpreeOklink.cancelUrl = "<%= j spree_oklink_cancel_url(:payment_method_id => payment_method.id).html_safe %>";
-	SpreeOklink.successUrl = "<%= j spree_oklink_success_url(:payment_method_id => payment_method.id, :order_num => current_order.number).html_safe %>";
-</script>

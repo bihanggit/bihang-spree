@@ -1,4 +1,4 @@
-SpreeOklink
+Spreebihang
 ===========
 
 Introduction goes here.
@@ -6,17 +6,17 @@ Introduction goes here.
 Installation
 ------------
 
-Add spree_oklink to your Gemfile:
+Add spree_bihang to your Gemfile:
 
 ```ruby
-gem 'spree_oklink'
+gem 'spree_bihang'
 ```
 
 Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_oklink:install
+bundle exec rails g spree_bihang:install
 ```
 
 Testing
@@ -33,7 +33,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_oklink/factories'
+require 'spree_bihang/factories'
 ```
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+Copyright (c) 2016 [name of extension creator], released under the New BSD License
